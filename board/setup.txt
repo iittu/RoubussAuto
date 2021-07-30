@@ -1,0 +1,27 @@
+product_name:R888888888888888888
+
+board_ip:10.163.247.22
+power_supplier_ip:10.163.181.35
+board_com:/dev/ttyUSB0
+charmber_com:/dev/ttyUSB1
+
+board_username:root
+board_password:root
+
+roub_script_path:/lmc/lmc3/script/iv.sh
+EDVT_script_path:/lmc/lmc3/script/edvt.sh hh
+log_path:/lmc/lmc3/temp.log
+
+high_temp:55
+low_temp:-5
+slew_rate(degC/min):1
+start_temp:-5
+high_temp_dur:8
+low_temp_dur:8
+cycle_num:5
+
+tester_mailbox:tester@ericsson.com
+failure_check:1
+failure_check_str:Fail
+
+report_path:/home/xmu04/
